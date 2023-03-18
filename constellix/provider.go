@@ -2,7 +2,7 @@ package constellix
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/Constellix/constellix-go-client/client"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
