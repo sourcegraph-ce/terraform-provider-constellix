@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/Constellix/constellix-go-client/client"
 	"github.com/Constellix/constellix-go-client/models"

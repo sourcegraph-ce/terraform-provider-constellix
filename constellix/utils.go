@@ -1,7 +1,7 @@
 package constellix
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func toStringList(configured interface{}) []string {
